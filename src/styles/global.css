@@ -16,8 +16,28 @@ a {
     color: rgb(4, 0, 216)
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 1.5rem;
+}
+
+p {
+  margin-top: .5rem; 
+}
+
+
 nav {
     float: right;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .category-link {
@@ -28,6 +48,19 @@ nav {
     height: 50px;
 }
 
+
+.grid-2x2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:  1fr;
+}
+
+@media (max-width: 768px) {
+    .grid-2x2 {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr;
+    }
+}
 
 
 
