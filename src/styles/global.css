@@ -41,7 +41,9 @@ p {
 }
 
 .home-page-copy {
-    font-size: 3rem;
+    /* font-size: 3em; */
+    font-size: 4vw;
+    
 }
 
 header {
