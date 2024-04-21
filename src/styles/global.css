@@ -14,7 +14,9 @@ h1 {
 }
 
 a {
-    color: rgb(4, 0, 216)
+    color: rgb(4, 0, 216);
+    font-size: 1.2rem;
+    
 }
 
 ul {
@@ -29,13 +31,16 @@ p {
   margin-top: .5rem; 
 }
 
-
 nav {
     float: right;
 }
 
+.directory-nav {
+    padding-left: .5rem;
+}
+
 .home-page-copy {
-    font-size: 3rem;;
+    font-size: 2.8rem;
 }
 
 header {
@@ -50,16 +55,11 @@ header {
     font-size: 1.2rem;
 }
 
-.mac-icon {
-    height: 50px;
-}
-
 .ascii {
     font-family: monospace;
     white-space: pre;
     font-size: 2px;
   }
-
 
 .grid-2x2 {
 	display: grid;
@@ -70,7 +70,11 @@ header {
 @media (max-width: 768px) {
     .grid-2x2 {
         grid-template-columns: 1fr; 
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    html {
+        padding: 5px;
     }
 }
 
