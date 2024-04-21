@@ -31,9 +31,9 @@ p {
   margin-top: .5rem; 
 }
 
-nav {
+/* nav {
     float: right;
-}
+} */
 
 .directory-nav {
     padding-left: .5rem;
@@ -44,9 +44,9 @@ nav {
 }
 
 header {
-    position: sticky;
+    /* position: sticky; */
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     padding-bottom: 2rem;
 }
@@ -59,6 +59,7 @@ header {
     font-family: monospace;
     white-space: pre;
     font-size: 2px;
+    padding: none;
   }
 
 .grid-2x2 {
@@ -75,6 +76,10 @@ header {
 
     html {
         padding: 5px;
+    }
+
+    .empty {
+        display: none;
     }
 }
 
