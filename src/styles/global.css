@@ -44,8 +44,6 @@ p {
     /* font-size: 3em; */
     /* height: 5vh;  */
     font-size: clamp(2rem, 12vw, 3rem);
-
-
 }
 
 header {
@@ -92,7 +90,15 @@ footer {
         grid-template-rows: 1fr;
     }
 
-    html {
+    /* html {
+        padding: 5px;
+    } */
+
+    header {
+        align-items: stretch;
+    }
+
+    body {
         padding: 5px;
     }
 
