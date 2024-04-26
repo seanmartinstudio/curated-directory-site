@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import Header from "../components/Header.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Header />
+		<h2>Coolest Websites</h2>
+        <ul>
+            <li>
+                <a class="link" href="https://lfe.org/">Loz Feliz Engineering</a>
+                <p>Clever single page website for one of the most enigmatic software companies around. So scrolling required. </p>
+            </li>
+            <li>
+                <a class="link" href="https://dayjob.work/">Day Job</a>
+                <p>Throw back 1990s motify with clip art icons and an emulater that lets you play Doom! Creative agency based in NYC.</p>
+            </li>
+        </ul>
+	</body>
+</html>
