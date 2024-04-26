@@ -74,6 +74,10 @@ footer {
     font-size: 1.3rem;
 }
 
+.link-body {
+    padding-right: 30px;
+}
+
 .ascii {
     font-size: 2px;;
   }
