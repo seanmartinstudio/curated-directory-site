@@ -120,7 +120,8 @@ footer {
 
     .hamburger {
         display: block;
-        float: right;
+        padding: 8px;
+        /* float: right; */
     }
 
     .hamburger .line {
