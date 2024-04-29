@@ -55,6 +55,19 @@ header {
     padding-bottom: 2rem;
 }
 
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #ff9776;
+  }
+
 footer {
     background-color: rgb(4, 0, 216);
     padding: 10px;
@@ -89,6 +102,8 @@ footer {
 	grid-template-rows:  1fr;
 }
 
+
+
 @media (max-width: 768px) {
     .grid-2x2 {
         grid-template-columns: 1fr; 
@@ -115,6 +130,7 @@ footer {
     .empty {
         display: none;
     }
+
 }
 
 
