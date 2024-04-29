@@ -56,17 +56,10 @@ header {
 }
 
 .hamburger {
-    padding-right: 20px;
-    cursor: pointer;
-  }
-  
-  .hamburger .line {
-    display: block;
-    width: 40px;
-    height: 5px;
-    margin-bottom: 10px;
-    background-color: #ff9776;
-  }
+    display: none;
+}
+
+
 
 footer {
     background-color: rgb(4, 0, 216);
@@ -88,9 +81,6 @@ footer {
     font-size: 1.3rem;
 }
 
-/* .link-body {
-    padding-right: 30px;
-} */
 
 .ascii {
     font-size: 2px;;
@@ -130,6 +120,23 @@ footer {
     .empty {
         display: none;
     }
+
+    .hamburger {
+        display: block;
+        float: right;
+    }
+
+    .hamburger .line {
+        display: block;
+        width: 40px;
+        height: 2px;
+        margin-bottom: 7px;
+        background-color: rgb(4, 0, 216);
+      }
+
+      nav {
+        display: none;
+      }
 
 }
 
