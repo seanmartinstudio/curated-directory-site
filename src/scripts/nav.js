@@ -1,4 +1,4 @@
-document.querySelector('.hamburger').addEventListener('touchstart', () => {
+document.querySelector('.hamburger').addEventListener('click', () => {
     const element = document.querySelector('.nav-links');
     if (element.style.display === "none") {
       element.style.display = "grid";
