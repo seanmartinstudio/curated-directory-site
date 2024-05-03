@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import Header from "../components/Header.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Typography</title>
+	</head>
+	<body>
+		<Header />
+		<h2>Typography</h2>
+        <ul>
+            <li>
+                <a class="link" href="https://www.media.mit.edu/posts/lunch-lectures-computational-typography/">MIT Lunch Lectures: Computational Typography</a>
+                <p>A series of six video lectures by bleeding edge designers discussing their use of computational typography. Hosted by MIT professor and artist Zach Lieberman.</p>
+            </li>
+            <li>
+                <a class="link" href="https://type-01.com/typeonemagazine/">Type One Magazine</a>
+                <p>A fresh and dynamic magazine based out of the UK covering typography with a computational bent. </p>
+            </li>
+        </ul>
+	</body>
+</html>
