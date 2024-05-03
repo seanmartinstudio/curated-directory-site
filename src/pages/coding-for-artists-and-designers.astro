@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+import Header from "../components/Header.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Header />
+		<h2>Coding for Artists and Designers</h2>
+        <ul>
+            <li>
+                <a class="link" href="https://www.linkedbyair.net/">Parametric Design</a>
+                <p>A comprehensive but easy to follow introduction to code-driven design taught by German design professor Sebastian Meier using JavaScript.</p>
+            </li>
+            <li>
+                <a class="link" href="https://thecodingtrain.com/">The Coding Train</a>
+                <p>The website that introduced creative coding to thousands of artists and designers. Taught by NYU professor Dan Shiffman, possibly the most likeable person on the planet.</p>
+            </li>
+            <li>
+                <a class="link" href="https://p5js.org/">p5.js</a>
+                <p>Both a JavaScript library for creative coding and an easy to use code editor running in the web browser. Initiated by artist, computer scientist and UCLA professor Lauren Lee McCarthy and maintined by a global community of volunteers.</p>
+            </li>
+            <li>
+                <a class="link" href="https://www.media.mit.edu/posts/lunch-lectures-computational-typography/">MIT Lunch Lectures: Computational Typography</a>
+                <p>A series of six video lectures by bleeding edge designers discussing their use of computational typography. Hosted by MIT professor and artist Zach Lieberman.</p>
+            </li>
+        </ul>
+	</body>
+</html>
