@@ -118,21 +118,19 @@ footer {
         display: none;
     }
 
-    .hamburger {
+    /* .hamburger {
         display: block;
-        /* padding: 8px; */
-        /* float: right; */
-    }
+    } */
 
-    .hamburger .line {
+    /* .hamburger .line {
         display: block;
         width: 40px;
         height: 2px;
         margin-bottom: 7px;
         background-color: rgb(4, 0, 216);
-      }
+      } */
 
-      nav {
+      /* nav {
         display: none;
         grid-template-columns: 1fr;
         grid-template-rows:  1fr 1fr;
@@ -143,10 +141,14 @@ footer {
         height: 100%;
         background: bisque;
         color: rgb(4, 0, 216);
-      }
+      } */
 
-      nav a {
+      /* nav a {
         padding: 100px;
+    } */
+
+    nav {
+        display: flex;
     }
 
 
