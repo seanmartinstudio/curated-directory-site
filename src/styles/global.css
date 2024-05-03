@@ -47,6 +47,10 @@ p {
     font-size: clamp(2rem, 12vw, 3rem);
 }
 
+.in-body-link {
+    font-size: clamp(2rem, 12vw, 3rem);
+}
+
 header {
     display: flex;
     align-items: center;
