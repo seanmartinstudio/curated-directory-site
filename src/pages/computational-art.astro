@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+import Header from "../components/Header.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Computational Art</title>
+	</head>
+	<body>
+		<Header />
+		<h2>Computational Art</h2>
+        <ul>
+            <li>
+                <a class="link" href="https://feralfile.com">Feral File</a>
+                <p>An online gallery of digital, software, code and generative based art. Founded by artist and UCLA professor Casey Reas.</p>
+            </li>
+			<li>
+                <a class="link" href="https://www.vellumla.com">Vellum LA</a>
+                <p>A Los Angeles based gallery exhibiting new media and digital art.</p>
+            </li>
+			<li>
+                <a class="link" href="https://bitforms.art">Bitforms Gallery</a>
+                <p>The OG New York City gallery exhibiting technology based art.</p>
+            </li>
+			<li>
+                <a class="link" href="https://www.rightclicksave.com/article/the-power-of-processing-casey-reas-and-lauren-lee-mccarthy-interview-generative-art">The Power Of Processing</a>
+                <p>Great interview about the future of computational art with Casey Reas and Lauren Lee McCarthy, published by Right Click Save.</p>
+            </li>
+        </ul>
+	</body>
+</html>
