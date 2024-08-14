@@ -27,6 +27,11 @@ import Header from '../components/Header.astro';
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Eternal September</title>
+		<style>
+			@view-transition {
+				navigation: auto;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
